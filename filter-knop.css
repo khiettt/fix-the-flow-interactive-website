@@ -1,11 +1,20 @@
 .button-before{
-    display: block;
-    width: 200px;
+    width: 150px;
     height: auto;
 }
 
-.button-after{
+.filterFlag{
     display: block;
-    width: 200px;
+    width: 150px;
     height: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.flag{
+    display: none;
+}
+
+.visible{
+  display: block;
 }
