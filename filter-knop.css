@@ -1,0 +1,11 @@
+.button-before{
+    display: block;
+    width: 200px;
+    height: auto;
+}
+
+.button-after{
+    display: block;
+    width: 200px;
+    height: auto;
+}
