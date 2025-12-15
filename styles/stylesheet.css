@@ -1,0 +1,522 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffffff;
+}
+.header-theme-krant{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Jacques Francois Shadow !important;
+
+    .alg-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    }
+}
+
+main .algemeene-info{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.img-voorpagina{
+    display: flex;
+    flex-direction: column; 
+}
+video{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin: 10px auto;
+    padding: 0px;
+    border: 1px solid var(--steenGrijs);
+    border-radius: 8px;
+    box-shadow: 0.2px 6px rgba(0, 0, 0, 0,1);
+}
+.latest-news{
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid var(--torenOranje);
+    border-radius: 8px;
+    box-shadow: 0.2px 6px rgba(0, 0, 0, 0,1);
+    max-width: 300px;
+    background-color: var(--torenOranje);
+    text-align: center;
+}
+
+.small-article-tanja{
+    grid-area: 8 / 1 / 9 / 11;
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: var(--zee);
+    padding: 30px;
+    border: 1px solid var(--steenGrijs);
+    border-radius: 8px;
+    box-shadow: 0.2px 6px rgba(0, 0, 0, 0,1);
+    line-height: 1.6;
+    font-size: 1rem;
+}
+.small-article-motuin{
+    grid-area: 8 / 1 / 9 / 11;
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: var(--paarsBlauw);
+    padding: 30px;
+    border: 1px solid var(--steenGrijs);
+    border-radius: 8px;
+    box-shadow: 0.2px 6px rgba(0, 0, 0, 0,1);
+    line-height: 1.6;
+    font-size: 1rem;
+}
+.small-article-hva{
+    grid-area: 8 / 1 / 9 / 11;
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: var(--steenGrijs);
+    padding: 30px;
+    border: 1px solid var(--steenGrijs);
+    border-radius: 8px;
+    box-shadow: 0.2px 6px rgba(0, 0, 0, 0,1);
+    line-height: 1.6;
+    font-size: 1rem;
+}
+.small-article-physio{
+    grid-area: 8 / 1 / 9 / 11;
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: var(--steenGrijs);
+    padding: 30px;
+    border: 1px solid var(--steenGrijs);
+    border-radius: 8px;
+    box-shadow: 0.2px 6px rgba(0, 0, 0, 0,1);
+    line-height: 1.6;
+    font-size: 1rem;
+}
+.small-article-subsidy{
+    grid-area: 8 / 1 / 9 / 11;
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: var(--steenGrijs);
+    padding: 30px;
+    border: 1px solid var(--steenGrijs);
+    border-radius: 8px;
+    box-shadow: 0.2px 6px rgba(0, 0, 0, 0,1);
+    line-height: 1.6;
+    font-size: 1rem;
+}
+.small-article-geuzenveld{ 
+    grid-area: 8 / 1 / 9 / 11;
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: var(--mosGroen);
+    padding: 30px;
+    border: 1px solid var(--steenGrijs);
+    border-radius: 8px;
+    box-shadow: 0.2px 6px rgba(0, 0, 0, 0,1);
+    line-height: 1.6;
+    font-size: 1rem;
+}
+.small-article-home-flats{ 
+    grid-area: 8 / 1 / 9 / 11;
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: var(--steenGrijs);
+    padding: 30px;
+    border: 1px solid var(--steenGrijs);
+    border-radius: 8px;
+    box-shadow: 0.2px 6px rgba(0, 0, 0, 0,1);
+    line-height: 1.6;
+    font-size: 1rem;
+    margin-bottom: 200px;
+}
+
+/* Cards */
+.locations{
+    margin: 40px auto;
+    padding: 10px;
+    border: 1px solid var(--torenOranje);
+    border-radius: 8px;
+    box-shadow: 0.2px 6px rgba(0, 0, 0, 0,1);
+    max-width: 200px;
+    background-color: var(--torenOranje);
+    text-align: center;
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+
+.card-east {
+    width: 325px;
+    background-color: var(--paarsBlauw);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    margin: 20px;
+}
+.card-east img{
+    width: 100%;
+    height: auto;
+}
+.card-new-west {
+    width: 325px;
+    background-color: var(--mosGroen);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    margin: 20px;
+}
+.card-new-west img{
+    width: 100%;
+    height: auto;
+}
+.card-south-east {
+    width: 325px;
+    background-color: var(--zee);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    margin: 20px;
+}
+.card-south-east img{
+    width: 100%;
+    height: auto;
+}
+.card-content {
+    padding: 16px;
+}
+.card-content h3 {
+    font-size: var(--font-size-h3);
+    margin-bottom: 20px;
+}
+.locatie-text{
+    text-decoration: none;
+    color: var(--primaryAccent);
+}
+
+
+/* Footer  */
+
+.footer{
+    background: var(modder);
+    color: var(--primaryAccent);
+    padding: 40px;
+    font-family: Arial, sans-serif;
+}
+
+.footer section{
+    border: 2px solid var(--secondaryAccent);
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.footer h2{
+    margin-top: -20px;
+    background: #001a4d;
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.archive-links{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+/* Pagina Oost */
+.logo-oost{
+    display: flex;
+    width: 200px;
+}
+.flag-section{
+    margin: 10px;
+    padding: 3px;
+}
+
+.flag-section p{
+    text-align: justify;
+}
+.flag-btn{
+    border: none;
+    padding: 0;
+    background: none;
+}
+.target-group{
+    display: none;
+    width: 150px;
+    margin: 5px;
+    padding: 1px;
+}
+.target-group img{
+    width: 100%;
+    height: auto;
+}
+.show{
+    display: block !important;
+}
+.hide{
+    display: none !important;
+}
+/* pagina tanja */
+.img-tanja img{
+    display: flex;
+    flex-direction: column;
+    max-width: 375px;
+    margin: 10px auto;
+    border: 10px solid var(--zee);
+    border-radius: 8px;
+}
+.stadsdeel-voorzitter{
+    display: flex;
+    flex-direction: row;
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 20px;
+    border: 5px solid var(--zee);
+    border-radius: 8px;
+    line-height: 1.6;
+    font-size: 16px;
+    background-color: #38858D;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+.section-tanja{
+    font-family: Arial, Helvetica, sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    padding: 10px;
+    line-height: 1.6;
+    font-size: 16px;
+    max-width: 600px;
+    border: 5px solid var(--zee);
+    border-radius: 8px;
+    background-color: #38858D;
+}
+
+/* pagina Motuin en Hoektuin */
+.img-motuin{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 10px auto;
+    border: 10px solid var(--paarsBlauw);
+    border-radius: 8px
+}
+
+.motuin-hoektuin{
+    display: flex;
+    flex-direction: row;
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 20px;
+    border: 5px solid var(--paarsBlauw);
+    border-radius: 8px;
+    line-height: 1.6;
+    font-size: 16px;
+    background-color: #8181A2;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.section-motuin{
+    font-family: Arial, Helvetica, sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    padding: 10px;
+    line-height: 1.6;
+    font-size: 16px;
+    max-width: 600px;
+    border: 5px solid var(--paarsBlauw);
+    border-radius: 8px;
+    background-color: #8181A2;
+}
+.info-motuin{
+    font-family: Arial, Helvetica, sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    padding: 10px;
+    line-height: 1.6;
+    font-size: 16px;
+    max-width: 600px;
+    border: 5px solid var(--paarsBlauw);
+    border-radius: 8px;
+    background-color: #8181A2;
+}
+.thee-tuinieren{
+    font-family: Arial, Helvetica, sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    padding: 10px;
+    line-height: 1.6;
+    font-size: 16px;
+    max-width: 600px;
+    border: 5px solid var(--paarsBlauw);
+    border-radius: 8px;
+    background-color: #8181A2;
+}
+
+/* OBA en HVA */
+.img-oba-hva{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 10px auto;
+    border: 20px solid var(--steenGrijs);
+    border-radius: 8px
+}
+
+.oba-hva{
+    display: flex;
+    flex-direction: row;
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 20px;
+    border: 5px solid #9D9891;
+    border-radius: 8px;
+    line-height: 1.6;
+    font-size: 16px;
+    background-color: var(--steenGrijs);
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.section-oba-hva{
+    font-family: Arial, Helvetica, sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    padding: 10px;
+    line-height: 1.6;
+    font-size: 16px;
+    max-width: 600px;
+    border: 5px solid #9D9891;
+    border-radius: 8px;
+    background-color: var(--steenGrijs);
+}
+
+/* pagina fysio */
+
+.img-fysio{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 10px auto;
+    border: 20px solid var(--steenGrijs);
+    border-radius: 8px
+}
+
+.fysio-title{
+    display: flex;
+    flex-direction: row;
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 20px;
+    border: 5px solid #9D9891;
+    border-radius: 8px;
+    line-height: 1.6;
+    font-size: 16px;
+    background-color: var(--steenGrijs);
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.section-fysio{
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    margin: 10px auto;
+    margin-bottom: 80px;
+    margin-top: 50px;
+    padding: 20px;
+    border: 5px solid #9D9891;
+    border-radius: 8px;
+    line-height: 1.6;
+    font-size: 16px;
+    background-color: var(--steenGrijs);
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.section-tips-docenten{
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 5px solid #9D9891;
+    border-radius: 8px;
+    line-height: 1.6;
+    font-size: 16px;
+    background-color: var(--steenGrijs);
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.section-tips-docenten h4{
+    text-align: center;
+}
+
+/* meerjaren subsidie */
+.img-meerjaren-subsidie{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 10px auto;
+    border: 10px solid var(--steenGrijs);
+    border-radius: 8px
+}
+
+.meerjaren-subsidie-title{
+    display: flex;
+    flex-direction: row;
+    max-width: 300px;
+    margin: 10px auto;
+    padding: 5px;
+    border: 5px solid #9D9891;
+    border-radius: 8px;
+    line-height: 1.6;
+    font-size: 16px;
+    background-color: var(--steenGrijs);
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+.meerjaren-subsidie-title h3{
+    text-align: center;
+}
+
+.section-hva-meerjaren-subsidie{
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 5px;
+    border: 5px solid #9D9891;
+    border-radius: 8px;
+    line-height: 1.6;
+    font-size: 16px;
+    background-color: var(--steenGrijs);
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.section-zes-jaar-subsidie{
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 5px;
+    border: 5px solid #9D9891;
+    border-radius: 8px;
+    line-height: 1.6;
+    font-size: 16px;
+    background-color: var(--steenGrijs);
+    font-family: Arial, Helvetica, sans-serif !important;
+}
