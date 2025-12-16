@@ -11,7 +11,15 @@ flagOpen.addEventListener('click', function(){
 
 //   buttons.forEach(button =>{
 //     button.addEventListener('click' () => {
-//       let filterClass = button.classList[0].replace('-button','')
-//     })
-//   })
+//       let filterClass = button.classList[0].replace('-button','');
+
+//       articles.forEach(article => {
+//         if(article.classList.contains(filterClass)) {
+//           article.classList.toggle('show');
+//         }else{
+//           article.classList.toggle('hidden');
+//         }
+//       });
+//     });
+//   });
 // })

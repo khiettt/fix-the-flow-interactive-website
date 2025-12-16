@@ -167,6 +167,9 @@ video{
     width: 100%;
     height: auto;
 }
+.logo-card{
+    max-width: 125px;
+}
 .card-new-west {
     width: 325px;
     background-color: var(--mosGroen);
@@ -268,6 +271,58 @@ video{
 }
 .hide{
     display: none !important;
+}
+.intro-oost{
+    line-height: 1.5;
+    font-size: 1rem;
+    border: 5px solid var(--paarsBlauw);
+    border-radius: 8px;
+    margin: 20px auto;
+    padding: 15px
+}
+.bieb-in-bloei{
+    line-height: 1.5;
+    font-size: 1rem;
+    border: 5px solid var(--paarsBlauw);
+    border-radius: 8px;
+    margin: 20px auto;
+    padding: 15px
+}
+.bieb-in-bloei h4{
+    text-align: center;
+}
+.vitaliteit-oost{
+    line-height: 1.5;
+    font-size: 1rem;
+    border: 5px solid var(--paarsBlauw);
+    border-radius: 8px;
+    margin: 20px auto;
+    padding: 15px
+}
+.vitaliteit-oost h4{
+    text-align: center;
+}
+.co-creatie-oost{
+    line-height: 1.5;
+    font-size: 1rem;
+    border: 5px solid var(--paarsBlauw);
+    border-radius: 8px;
+    margin: 20px auto;
+    padding: 15px
+}
+.co-creatie-oost{
+    text-align: center;
+}
+.kritische-professionals-oost{
+    line-height: 1.5;
+    font-size: 1rem;
+    border: 5px solid var(--paarsBlauw);
+    border-radius: 8px;
+    margin: 20px auto;
+    padding: 15px
+}
+.kritische-professionals-oost{
+    text-align: center;
 }
 /* pagina tanja */
 .img-tanja img{
